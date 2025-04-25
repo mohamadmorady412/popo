@@ -23,4 +23,4 @@ repos:
           - pytest==8.3.5
           - pytest-cov==6.1.1
           - pytest-asyncio==0.26.0
-        stages: [manual]
+        stages: [manual] #pre-commit run --hook-stage manual pytest
